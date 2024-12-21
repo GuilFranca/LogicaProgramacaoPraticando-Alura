@@ -12,6 +12,11 @@ function sortear() {
         return;
     }
 
+    if (quantidade > (ate - de + 1)) {
+        alert('Quantidade de números excedente!')
+        return;
+    }
+
     for (i = 0;i < quantidade; i++) {
         numero = obterNumeroAleatorio(de, ate);
 
