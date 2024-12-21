@@ -13,7 +13,7 @@ function sortear() {
     }
 
     if (quantidade > (ate - de + 1)) {
-        alert('Quantidade de números excedente!')
+        alert('Quantidade de números excedente!');
         return;
     }
 
