@@ -45,6 +45,7 @@ function embaralha(lista) {
 
 
 function reiniciar() {
-    let lista = document.getElementById('lista-amigos');
-    lista.textContent = '';
+    amigos = [];
+    document.getElementById('lista-amigos').innerHTML = '';
+    document.getElementById('lista-sorteio').innerHTML= '';
 }
